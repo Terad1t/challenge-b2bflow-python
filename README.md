@@ -27,13 +27,13 @@ CREATE POLICY "allow anon select" ON contacts FOR SELECT TO anon USING (true);
 cp .env.example .env
 ```
 
-| Variável            | Onde encontrar                                          |
-|---------------------|---------------------------------------------------------|
+| Variável            | Onde encontrar                                               |
+|---------------------|---------------------------------------------------------     |
 | `SUPABASE_URL`      | Settings → General → Project ID → `https://<id>.supabase.co` |
-| `SUPABASE_KEY`      | Settings → API Keys → Publishable key                   |
-| `ZAPI_INSTANCE_ID`  | Z-API → instância → ID da instância                     |
-| `ZAPI_TOKEN`        | Z-API → instância → Token da instância                  |
-| `ZAPI_CLIENT_TOKEN` | Z-API → Security → Token de segurança da conta          |
+| `SUPABASE_KEY`      | Settings → API Keys → Publishable key                        |
+| `ZAPI_INSTANCE_ID`  | Z-API → instância → ID da instância                          |
+| `ZAPI_TOKEN`        | Z-API → instância → Token da instância                       |
+| `ZAPI_CLIENT_TOKEN` | Z-API → Security → Token de segurança da conta               |
 
 - Obs: Apontar a câmera do celular no QRCode do Z-API para conectar a instância e enviar mensagens via API.
 
@@ -42,3 +42,7 @@ cp .env.example .env
 ```bash
 python main.py
 ```
+
+## Demo
+
+[![Demo]](https://youtu.be/qjhsQrxn2bU)
