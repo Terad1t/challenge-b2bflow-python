@@ -1,0 +1,15 @@
+[project]
+name = "b2bflow-challenge"
+version = "0.1.0"
+description = "Desafio técnico b2bflow: lê contatos do Supabase e envia mensagens via Z-API"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "supabase>=2.31.0",
+]
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.15.18",
+]
