@@ -44,5 +44,5 @@ python main.py
 ```
 
 ## Demo
-
-[![Demo]](https://youtu.be/qjhsQrxn2bU)
+Um vídeo rodando o código e funcionando: 
+- https://youtu.be/qjhsQrxn2bU
